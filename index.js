@@ -16,6 +16,8 @@ const { name, author } = require(join(__dirname, './package.json')) // https://w
 const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
 
+require("http").createServer((_, res) => res.end("Uptime!")).listen(8080)
+
 say('PutraModz', {
   font: 'chrome',
   align: 'center',
