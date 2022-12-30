@@ -20,38 +20,38 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
 let teksbio = `${htki} *BIODATA* ${htka}
-${htjava} *💌 Nama* : PutraModz
-${htjava} *✉️ Nama RL* : HAMBA ALLAH
+${htjava} *💌 Nama* : xʏʟᴏɪᴅ ʙᴏᴛ
+${htjava} *✉️ Nama RL* : ʀʏᴀɴ ᴀᴅɪᴛʏᴀ ᴘʀᴀᴛᴀᴍᴀ
 ${htjava} *♂️ Gender* : Boys
 ${htjava} *🕋 Agama* : Islam
-${htjava} *⏰ Tanggal lahir* : Private 🥶
-${htjava} *🎨 Umur* : 18
-${htjava} *🧮 Kelas* : SUDAH TAMAT
-${htjava} *🧩 Hobby* : MODIFIKASI WHATSAPP "MODDER WHATSAPP"
-${htjava} *💬 Sifat* : ASIK DAH KALAU DAH KENAL
-${htjava} *🗺️ Tinggal* : Indo, Kuningan, Jawa Barat
+${htjava} *⏰ Tanggal lahir* : 12 ᴀɢᴜsᴛᴜs 1997
+${htjava} *🎨 Umur* : 24
+${htjava} *🧮 Kelas* : ᴛᴀᴍᴀᴛ
+${htjava} *🧩 Hobby* : ᴍᴀʙᴀʀ ᴇᴘᴇᴘ
+${htjava} *💬 Sifat* : ɴɢɢᴋ ᴛᴀᴜ ʙᴀɴʜ
+${htjava} *🗺️ Tinggal* : ɪɴᴅᴏɴᴇsɪᴀ, ʙᴀɴᴅᴜɴɢ, ᴊᴀᴡᴀ ʙᴀʀᴀᴛ
 ${htjava} *❤️ Waifu* : -
 
 ${htjava} *📷 ɪɴsᴛᴀɢʀᴀᴍ* : ${sig}
 ${htjava} *🐈 ɢɪᴛʜᴜʙ:* ${sgh}
 •·––––––––––––––––––––––––––·•
 `
-  let teks = 'Pilih dibawah kak ! o(〃＾▽＾〃)o'
+  let teks = 'ᴄʟɪᴄᴋ ʜᴇʀᴇ !'
 const sections = [
    {
 	title: `${htjava} OWNER –––––––––·•`,
 	rows: [
-	{title: "📱 • Nomor Owner", rowId: ".owner nomor"},
-	{title: "📱 • Pengembang", rowId: ".kontak"},
-	{title: "🎨 • Biodata", rowId: ".owner bio"},
-	{title: "🌎 • Script", rowId: ".sc"},
+	{title: "📱 • ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ", rowId: ".owner nomor"},
+	{title: "📱 • ᴘᴇɴɢᴇᴍʙᴀɴɢ", rowId: ".kontak"},
+	{title: "🎨 • ʙɪᴏᴅᴀᴛᴀ", rowId: ".owner bio"},
+	{title: "🌎 • sᴄʀɪᴘᴛ", rowId: ".sc"},
 	]
     },{
 	title: `${htjava} SUPPORT ME –––––––·•`,
 	rows: [
-	    {title: "💹 • Donasi", rowId: ".donasi"},
-	{title: "🔖 • Sewa", rowId: ".sewa"},
-	{title: "🌟 • Buy Premium", rowId: ".premium"},
+	    {title: "💹 • ᴅᴏɴᴀᴛᴇ ғᴏʀ ʙᴏᴛ", rowId: ".donasi"},
+	{title: "🔖 • sᴇᴡᴀ ʙᴏᴛ", rowId: ".sewa"},
+	{title: "🌟 • ʙᴇʟɪ ᴘʀᴇᴍɪᴜᴍ", rowId: ".premium"},
 	]
   },
 ]
@@ -60,7 +60,7 @@ const listMessage = {
   text: teks,
   footer: null,
   title: `${htki} *OWNER* ${htka}`,
-  buttonText: "Click Here !",
+  buttonText: "ᴄʟɪᴄᴋ ʜᴇʀᴇ !",
   sections
 }
 
