@@ -16,29 +16,29 @@ let ppm = '35'
 let ri = '25'
 let pk = '30'
 let info = `
-╭━━━━「 *SEWA* 」
-┊⫹⫺ *Hemat:* _${sh}k/grup (7 Hari)_
-┊⫹⫺ *Normal:* _${sn}k/grup (1 bulan)_                                         
-┊⫹⫺ *permanen:* = _${sv}k/grup (unlimited)_
-╰═┅═━––––––๑
+ ─┈ *sᴇᴡᴀ ʙᴏᴛ* ┈─
+┊➯ *ʜᴇᴍᴀᴛ:* _${sh}k/grup (7 Hari)_
+┊➯ *ɴᴏʀᴍᴀʟ:* _${sn}k/grup (1 bulan)_                                         
+┊➯ *ᴘᴇʀᴍᴀɴᴇɴᴛ:* = _${sv}k/grup (unlimited)_
 
-╭━━━━「 *PREMIUM* 」
-┊⫹⫺ *Hemat:* _${ph}k (7 Hari)_
-┊⫹⫺ *Normal:* _${pn}k (1 bulan)_                                       
-┊⫹⫺ *Permanent:* = _${ppm}k (Unlimited)_
-╰═┅═━––––––๑
-╭━━━━「 *PERPANJANG SEWA* 」
-┊⫹⫺ *Hemat:* _3k (7 Hari)_
-┊⫹⫺ *Normal:* _6k (1 bulan)_                                       
-╰═┅═━––––––๑
-╭━━━━「 *PERPANJANG PREMIUM* 」
-┊⫹⫺ *Hemat:* _3k (7 Hari)_
-┊⫹⫺ *Normal:* _6k (1 bulan)_                                       
-╰═┅═━––––––๑
-╭━━━━「 *JASARUN* 」
-┊⫹⫺ *Hemat:* _${ri}k (7 Hari)_
-┊⫹⫺ *Normal:* _${pk}k (1 bulan)_                                       
-╰═┅═━––––––๑
+
+ ─┈ *ᴜᴘ ᴘʀᴇᴍɪᴜᴍ*  ┈─
+┊➯ *ʜᴇᴍᴀᴛ:* _${ph}k (7 Hari)_
+┊➯ *ɴᴏʀᴍᴀʟ:* _${pn}k (1 bulan)_                                       
+┊➯ *ᴘᴇʀᴍᴀɴᴇɴᴛ:* = _${ppm}k (Unlimited)_
+
+ ─┈  *ᴘᴇʀᴘᴀɴᴊᴀɴɢ sᴇᴡᴀ* ┈─
+┊➯ *ʜᴇᴍᴀᴛ:* _3k (7 Hari)_
+┊➯ *ɴᴏʀᴍᴀʟ:* _6k (1 bulan)_                                       
+
+ ─┈  *ᴘᴇʀᴘᴀɴᴊᴀɴɢ ᴘʀᴇᴍɪᴜᴍ*  ┈─
+┊➯ *ʜᴇᴍᴀᴛ:* _3k (7 Hari)_
+┊➯ *ɴᴏʀᴍᴀʟ:* _6k (1 bulan)_                                       
+
+ ─┈ *ᴊᴀsᴀ ʀᴜɴ* ┈─
+┊➯ *ʜᴇᴍᴀᴛ:* _${ri}k (7 Hari)_
+┊➯ *ɴᴏʀᴍᴀʟ:* _${pk}k (1 bulan)_                                       
+                  
 ༅ _*FITUR BOT*
 
 ✧ *Virtex Menu✅*
