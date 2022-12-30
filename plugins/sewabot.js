@@ -1,17 +1,17 @@
 let handler = async (m, { conn }) => {
 	//-----PRICE
 //sewa
-let sh = '5'
-let sn = '15'
-let ss = '20'
-let sp = '35'
-let sv = '40'
+let sh = '1'
+let sn = '2'
+let ss = '2'
+let sp = '3.5'
+let sv = '5'
 //premium
-let ph = '5'
-let pn = '15'
-let pp = '25'
-let pv = '35'
-let ppm = '35'
+let ph = '1'
+let pn = '1.5'
+let pp = '2'
+let pv = '3'
+let ppm = '5'
 //jasa run
 let ri = '25'
 let pk = '30'
@@ -71,16 +71,16 @@ const sections = [
    {
 	title: `${htjava} SEWA ✦-------`,
 	rows: [
-	    {title: "🔖 HEMAT", rowId: '.order *Paket:* 5K • Sewa', description: 'PRICE: ' + sh + 'k (7 Hari)' },
-	    {title: "🔖 NORMAL", rowId: '.order *Paket:* 10K • Sewa', description: 'PRICE: ' + sn + 'k (1 bulan)' },
-	{title: "🔖 Permanen", rowId: '.order *Paket:* 40K • Sewa', description: 'PRICE: ' + sv + 'k (Permanen)' },
+	    {title: "🔖 HEMAT", rowId: '.order *Paket:* 1K • Sewa', description: 'PRICE: ' + sh + 'k (7 Hari)' },
+	    {title: "🔖 NORMAL", rowId: '.order *Paket:* 2K • Sewa', description: 'PRICE: ' + sn + 'k (1 bulan)' },
+	{title: "🔖 Permanen", rowId: '.order *Paket:* 5K • Sewa', description: 'PRICE: ' + sv + 'k (Permanen)' },
 	]
     }, {
     title: `${htjava} PREMIUM ✦-------`,
 	rows: [
-	    {title: "🌟 HEMAT", rowId: '.order *Paket:* 5K • Premium', description: 'PRICE: ' + ph + 'k (7 Hari)' },
-	    {title: "🌟 NORMAL", rowId: '.order *Paket:* 10K • Premium', description: 'PRICE: ' + pn + 'k (1 bulan)' },
-	{title: "🌟 PERMANENT", rowId: '.order *Paket:* 35K • Premium', description: 'PRICE: ' + ppm + 'k (UNLIMITED)' },
+	    {title: "🌟 HEMAT", rowId: '.order *Paket:* 1K • Premium', description: 'PRICE: ' + ph + 'k (7 Hari)' },
+	    {title: "🌟 NORMAL", rowId: '.order *Paket:* 2K • Premium', description: 'PRICE: ' + pn + 'k (1 bulan)' },
+	{title: "🌟 PERMANENT", rowId: '.order *Paket:* 3K • Premium', description: 'PRICE: ' + ppm + 'k (UNLIMITED)' },
 	]
     }, {
         title: `${htjava} JASA RUN ✦-------`,
