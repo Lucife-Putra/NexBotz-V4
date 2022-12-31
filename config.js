@@ -45,17 +45,17 @@ global.psaweria = '-'
 
 /*============== NOMOR ==============*/
 global.nomorbot = '62822522851438'
-global.nomorown = '6282252285143'
+global.nomorown = '62822522851432'
 global.namebot = 'xʏʟᴏɪᴅ ʙᴏᴛ'
 global.nameown = 'ᴏᴡɴᴇʀ xʏʟᴏɪᴅ-ʙᴏᴛᴢ'
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6282252285143'],
-  ['6285345899783'],
-  ['6285345899783'],
-  ['6282252285143', 'ᴏᴡɴᴇʀ xʏʟᴏɪᴅ-ʙᴏᴛ', true]
+  ['62822522851432'],
+  ['62822522851432'],
+  ['62822522851432'],
+  ['62822522851432', 'ᴏᴡɴᴇʀ xʏʟᴏɪᴅ-ʙᴏᴛ', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -112,7 +112,7 @@ global.botdate = `⻝ 𝘋 𝘈 𝘛 𝘌 : ${week} ${date}\n⻝ 𝘛𝘪𝘮�
 global.bottime = `⻝ 𝘛 𝘐 𝘔 𝘌  : ${wktuwib}`
 global.titlebot = `xʏʟᴏɪᴅ | ʙʏ ${global.nameown}`
 global.author = 'xʏʟᴏɪᴅ-ʙᴏᴛ' 
-global.packname = 'ʀʏᴀɴɴ\nᴡᴀ : 6282252285143'
+global.packname = 'ʀʏᴀɴɴ\nᴡᴀ : 62822522851432'
 global.danied = '✘ 𝗘𝗥𝗢𝗥 𝟰𝟬𝟰'
 global.ultahowner = 'Februari 02 2023'
 
@@ -134,7 +134,7 @@ global.intro = 'https://telegra.ph/file/47a0c1a961c43abfe5542.jpg'
 global.nameowner = 'ᴏᴡɴᴇʀ xʏʟᴏɪᴅ ʙᴏᴛ'
 global.umurowner = '24'
 global.asalowner = 'ᴊᴀᴡᴀ ʙᴀʀᴀᴛ,ʙᴀɴᴅᴜɴɢ'
-global.nomorowner = 'wa.me/6282252285143'
+global.nomorowner = 'wa.me/62822522851432'
 global.pacarowner = 'ᴀ'
 
 /*============== TEXT ==============*/
