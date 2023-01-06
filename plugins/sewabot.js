@@ -1,44 +1,44 @@
 let handler = async (m, { conn }) => {
 	//-----PRICE
 //sewa
-let sh = '5'
-let sn = '15'
-let ss = '20'
-let sp = '35'
-let sv = '40'
+let sh = '1'
+let sn = '2'
+let ss = '2'
+let sp = '3.5'
+let sv = '5'
 //premium
-let ph = '5'
-let pn = '15'
-let pp = '25'
-let pv = '35'
-let ppm = '35'
+let ph = '1'
+let pn = '1.5'
+let pp = '2'
+let pv = '3'
+let ppm = '5'
 //jasa run
 let ri = '25'
 let pk = '30'
 let info = `
-╭━━━━「 *SEWA* 」
-┊⫹⫺ *Hemat:* _${sh}k/grup (7 Hari)_
-┊⫹⫺ *Normal:* _${sn}k/grup (1 bulan)_                                         
-┊⫹⫺ *permanen:* = _${sv}k/grup (unlimited)_
-╰═┅═━––––––๑
+ ─┈ *sᴇᴡᴀ ʙᴏᴛ* ┈─
+┊➯ *ʜᴇᴍᴀᴛ:* _${sh}k/grup (7 Hari)_
+┊➯ *ɴᴏʀᴍᴀʟ:* _${sn}k/grup (1 bulan)_                                         
+┊➯ *ᴘᴇʀᴍᴀɴᴇɴᴛ:* = _${sv}k/grup (unlimited)_
 
-╭━━━━「 *PREMIUM* 」
-┊⫹⫺ *Hemat:* _${ph}k (7 Hari)_
-┊⫹⫺ *Normal:* _${pn}k (1 bulan)_                                       
-┊⫹⫺ *Permanent:* = _${ppm}k (Unlimited)_
-╰═┅═━––––––๑
-╭━━━━「 *PERPANJANG SEWA* 」
-┊⫹⫺ *Hemat:* _3k (7 Hari)_
-┊⫹⫺ *Normal:* _6k (1 bulan)_                                       
-╰═┅═━––––––๑
-╭━━━━「 *PERPANJANG PREMIUM* 」
-┊⫹⫺ *Hemat:* _3k (7 Hari)_
-┊⫹⫺ *Normal:* _6k (1 bulan)_                                       
-╰═┅═━––––––๑
-╭━━━━「 *JASARUN* 」
-┊⫹⫺ *Hemat:* _${ri}k (7 Hari)_
-┊⫹⫺ *Normal:* _${pk}k (1 bulan)_                                       
-╰═┅═━––––––๑
+
+ ─┈ *ᴜᴘ ᴘʀᴇᴍɪᴜᴍ*  ┈─
+┊➯ *ʜᴇᴍᴀᴛ:* _${ph}k (7 Hari)_
+┊➯ *ɴᴏʀᴍᴀʟ:* _${pn}k (1 bulan)_                                       
+┊➯ *ᴘᴇʀᴍᴀɴᴇɴᴛ:* = _${ppm}k (Unlimited)_
+
+ ─┈  *ᴘᴇʀᴘᴀɴᴊᴀɴɢ sᴇᴡᴀ* ┈─
+┊➯ *ʜᴇᴍᴀᴛ:* _3k (7 Hari)_
+┊➯ *ɴᴏʀᴍᴀʟ:* _6k (1 bulan)_                                       
+
+ ─┈  *ᴘᴇʀᴘᴀɴᴊᴀɴɢ ᴘʀᴇᴍɪᴜᴍ*  ┈─
+┊➯ *ʜᴇᴍᴀᴛ:* _3k (7 Hari)_
+┊➯ *ɴᴏʀᴍᴀʟ:* _6k (1 bulan)_                                       
+
+ ─┈ *ᴊᴀsᴀ ʀᴜɴ* ┈─
+┊➯ *ʜᴇᴍᴀᴛ:* _${ri}k (7 Hari)_
+┊➯ *ɴᴏʀᴍᴀʟ:* _${pk}k (1 bulan)_                                       
+                  
 ༅ _*FITUR BOT*
 
 ✧ *Virtex Menu✅*
@@ -71,16 +71,16 @@ const sections = [
    {
 	title: `${htjava} SEWA ✦-------`,
 	rows: [
-	    {title: "🔖 HEMAT", rowId: '.order *Paket:* 5K • Sewa', description: 'PRICE: ' + sh + 'k (7 Hari)' },
-	    {title: "🔖 NORMAL", rowId: '.order *Paket:* 10K • Sewa', description: 'PRICE: ' + sn + 'k (1 bulan)' },
-	{title: "🔖 Permanen", rowId: '.order *Paket:* 40K • Sewa', description: 'PRICE: ' + sv + 'k (Permanen)' },
+	    {title: "🔖 HEMAT", rowId: '.order *Paket:* 1K • Sewa', description: 'PRICE: ' + sh + 'k (7 Hari)' },
+	    {title: "🔖 NORMAL", rowId: '.order *Paket:* 2K • Sewa', description: 'PRICE: ' + sn + 'k (1 bulan)' },
+	{title: "🔖 Permanen", rowId: '.order *Paket:* 5K • Sewa', description: 'PRICE: ' + sv + 'k (Permanen)' },
 	]
     }, {
     title: `${htjava} PREMIUM ✦-------`,
 	rows: [
-	    {title: "🌟 HEMAT", rowId: '.order *Paket:* 5K • Premium', description: 'PRICE: ' + ph + 'k (7 Hari)' },
-	    {title: "🌟 NORMAL", rowId: '.order *Paket:* 10K • Premium', description: 'PRICE: ' + pn + 'k (1 bulan)' },
-	{title: "🌟 PERMANENT", rowId: '.order *Paket:* 35K • Premium', description: 'PRICE: ' + ppm + 'k (UNLIMITED)' },
+	    {title: "🌟 HEMAT", rowId: '.order *Paket:* 1K • Premium', description: 'PRICE: ' + ph + 'k (7 Hari)' },
+	    {title: "🌟 NORMAL", rowId: '.order *Paket:* 2K • Premium', description: 'PRICE: ' + pn + 'k (1 bulan)' },
+	{title: "🌟 PERMANENT", rowId: '.order *Paket:* 3K • Premium', description: 'PRICE: ' + ppm + 'k (UNLIMITED)' },
 	]
     }, {
         title: `${htjava} JASA RUN ✦-------`,

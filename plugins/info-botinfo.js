@@ -57,6 +57,7 @@ let handler = async (m, { conn, usedPrefix, __dirname, text, command }) => {
 🧩 ᴠᴇʀsɪᴏɴ: ${_package.version}
 📚 ʟɪʙʀᴀʀʏ: ${_package.description}
 👩‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ: PutraModz
+🗿 ʀᴇᴄᴏᴅᴇ   : xʏʟᴏɪᴅ ᴛᴇᴀᴍ
 
 ⏳ ᴜᴩᴛɪᴍᴇ: ${uptime}
 📈 ᴅᴀᴛᴀʙᴀsᴇ: ${totalreg}

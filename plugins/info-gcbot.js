@@ -3,11 +3,11 @@ let pp = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&s
 let botol = global.wm
 let str = `
 ✧─────[ *Group Official* ]─────✧
-🍀 Group WhatsApp : https://chat.whatsapp.com/FR1KfE3OTcQCayiabos8Ff
-🍀 My Youtube : PutraModz
+🍀 ɢʀᴜᴘ ʙᴏᴛ : https://chat.whatsapp.com/I47cTfEwzIC391KPBjbTPq
+🍀 ɢɪᴛʜᴜʙ : YᴀɴɴPʀᴛᴍ
 ✧──────────···──────────✧
 `.trim()
-conn.sendButton(m.chat, str, `${botol}`, [['⋮☰ MENU','.menu']],m)
+conn.sendButton(m.chat, str, `${botol}`, [['⋮☰ ᴍᴇɴᴜ','.menu']],m)
 }
 handler.help = ['gcbot']
 handler.tags = ['info']
