@@ -31,7 +31,7 @@ global.sig = 'https://instagram.com/ryannzx_store'
 global.syt = 'https://www.youtube.com/@ryannnadtprtm'
 global.sgh = 'https://github.com/YannPrtm'
 global.sgc = 'https://chat.whatsapp.com/I47cTfEwzIC391KPBjbTPq'
-global.swa = 'wa.me/6282252285143'
+global.swa = 'wa.me/62823504965320'
 global.swb = 'https://discord.gg/'
 global.snh = 'https://nhentai.net/g/365296/' //Make ini aja gausah di ganti.
 
@@ -44,18 +44,18 @@ global.ppulsa2 = '-'
 global.psaweria = '-'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '62822522851438'
-global.nomorown = '62822522851432'
+global.nomorbot = '62823504965321'
+global.nomorown = '62823504965320'
 global.namebot = 'xʏʟᴏɪᴅ ʙᴏᴛ'
 global.nameown = 'ᴏᴡɴᴇʀ xʏʟᴏɪᴅ-ʙᴏᴛᴢ'
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['62822522851432'],
-  ['62822522851432'],
-  ['62822522851432'],
-  ['62822522851432', 'ᴏᴡɴᴇʀ xʏʟᴏɪᴅ-ʙᴏᴛ', true]
+  ['62823504965320'],
+  ['62823504965320'],
+  ['62823504965320'],
+  ['62823504965320', 'ᴏᴡɴᴇʀ xʏʟᴏɪᴅ-ʙᴏᴛ', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
